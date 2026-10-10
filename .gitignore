@@ -1,0 +1,36 @@
+# ===== 编译产物（CubeIDE / Keil）=====
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.list
+*.map
+*.elf
+*.hex
+*.bin
+*.axf
+*.htm
+*.build_log.htm
+EWARM/
+MDK-ARM/*.uvguix.*
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
+
+# ===== CubeIDE 工程元数据（工程名带空格时会引发路径问题，可选保留）=====
+.settings/
+.mxproject
+*.launch
+
+# ===== 系统 / 编辑器临时文件 =====
+Thumbs.db
+desktop.ini
+.DS_Store
+*~
+*.swp
+
+# ===== 大文件（视频单独提交或用 Git LFS）=====
+*.mp4
+*.avi
+*.mov

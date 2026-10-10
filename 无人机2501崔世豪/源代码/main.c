@@ -97,8 +97,8 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	HAL_GPIO_TogglePin(LED111_GPIO_Port, LED111_Pin);
-	HAL_Delay(1000);
+	HAL_GPIO_TogglePin(LED111_GPIO_Port, LED111_Pin);/*把 LED111_Pin 这个引脚的电平取反——原来是高电平就变低，原来是低就变高。*/
+	HAL_Delay(500);/*延时 500ms*/
   }
   /* USER CODE END 3 */
 }
